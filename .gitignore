@@ -1,0 +1,25 @@
+# Datasets and large uncompressed files
+data/
+dataset/
+*.tsv
+*.csv
+
+# Submission archives
+*.zip
+
+# Virtual Environments & Caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+
+# Model Weights (Optional: comment out if reranker_lgb.txt is under 50MB and you want to share it)
+# *.txt
